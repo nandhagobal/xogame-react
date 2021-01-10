@@ -1,0 +1,11 @@
+.heading{
+    width: 100vw;
+    height:15vh;
+    background-color: gray;
+    color: yellow;
+    font-size: xx-large;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

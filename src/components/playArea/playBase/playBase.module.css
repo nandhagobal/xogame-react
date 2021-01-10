@@ -1,0 +1,45 @@
+.base{
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    background-color: darkcyan;
+    flex-direction: column;
+    width: 30vw;
+    height: 40vh;
+    overflow: hidden;
+}
+@media (max-width:740px){
+    .base{
+        width: 60vw;
+    }
+}
+.box{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.outer{
+    width: 100%;
+    height: 33.33%;
+    display: flex;
+}
+
+.button{
+    border: 2px solid green;
+    background-color: transparent;
+    color: green;
+    font-size:large;
+    margin-top: 20px;
+    padding: 1%;
+}
+
+.info{
+    margin-top: 30px ;
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+.info span{
+    color: red;
+}
